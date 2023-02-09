@@ -1,0 +1,113 @@
+.footer__content{
+    padding-top: 47px;
+    padding-bottom: 47px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer__logo{
+    margin-left: 85px;
+    max-width: 236px;
+}
+.footer__list{
+    display: flex;
+}
+.footer__item + .footer__item{
+    margin-left: 32px;
+}
+.footer__link{
+    max-width: 121px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83888F;  
+}
+.footer__box{
+    display: flex;
+    gap: 24px;
+}
+.footer__icon{
+    max-width: 24px;
+    height: 24px;
+}
+@media only screen and (max-width:880px){
+    .footer__content{
+        padding-top: 47px;
+        padding-bottom: 47px;
+        background-color: #2C343E;
+        display: block;
+    }
+    .footer__logo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        max-width: 236px;
+    }
+    .footer__list{
+        display: flex;
+        gap: 32px;
+    }
+    .footer__item{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 65px;
+    }
+    .footer__link{
+        max-width: 121px;
+        font-family: 'Barlow';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #83888F;  
+    }
+    .footer__box{
+        display: flex;
+        gap: 0;
+    }
+    .footer__icon{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 24px;
+        height: 24px;
+    }
+}
+@media only screen and (max-width:440px){
+    .footer__content{
+        padding-top: 47px;
+        padding-bottom: 47px;
+        background-color: #2C343E;
+        display: block;
+    }
+    .footer__logo{
+        max-width: 217px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+    .footer__list{
+        display: block;
+    }
+    .footer__link{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+    }
+    .footer__item + .footer__item{
+        margin-left: 0;
+    }
+    .footer__box{
+        display: flex;
+        gap: 0;
+    }
+    .footer__icon{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 24px;
+        height: 24px;
+    }
+}

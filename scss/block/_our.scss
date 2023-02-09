@@ -1,0 +1,115 @@
+#our{
+    margin-bottom: 264px;
+}
+.our__content{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.our__input{
+    max-width: 211px;
+    border: none;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B; 
+}
+.our__span{
+    display: block;
+    max-width: 255px;
+    height: 2px;
+    border-bottom: 2px solid #83888F;
+    margin-bottom: 24px;
+}
+.our__box2-input-2{
+    margin-bottom: 56px;
+    max-width: 644px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: #83888F;
+    border: none;
+}
+.our__list{
+    max-width: 730px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 88px;
+}
+.our__item{
+    max-width: 228px;
+    padding: 32px 28px 84px 28px;
+    background: #F4F1EB;
+    border-radius: 8px; 
+}
+.our__item-tittle{
+    max-width: 99px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;  
+}
+.our__item-text{
+    max-width: 172px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;  
+}
+.our__input-4{
+    display: block;
+    margin-bottom: 88px;
+    width: 600px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: #83888F;
+    border: none;
+}
+.our__end-box{
+    max-width: 730px;
+    padding: 47px 64px ;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+.our__end-box-tittle{
+    max-width: 127px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;  
+    margin-bottom: 8px;
+}
+.our__end-box-text{
+    max-width: 600px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF; 
+}
+.our__end-box-span{
+    color:  #0E8784;
+}
+.our__link-box{
+    max-width: 217px;
+    margin-top: 40px;
+    display: inline-block;
+    background: #E2DEDB;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;     
+    padding: 15px 35px ;
+}
+@media only screen and (max-width:1030px){
+    
+}
