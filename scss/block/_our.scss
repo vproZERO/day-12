@@ -31,6 +31,9 @@
     color: #83888F;
     border: none;
 }
+.navbar2{
+    display: none;
+}
 .our__list{
     max-width: 730px;
     display: flex;
@@ -110,6 +113,99 @@
     color: #FEFCF7;     
     padding: 15px 35px ;
 }
+@media only screen and (max-width:1230px){
+    .navbar2{
+        display: block;
+    }
+    .item1{
+        background-color: #0E8784;
+    }
+    .item5{
+        background-color: #FDD6BA;
+    }
+    .our__link-box{
+        background: #66D2CF;
+        border-radius: 6px;  
+    }
+}
 @media only screen and (max-width:1030px){
-    
+    .our__box{
+        display: none;
+    }
+    .our__box2-input-2{
+        max-width: 689px;
+        margin-bottom: 40px;
+    }
+    .our__list{
+        max-width: 689px;
+        gap: 10px;
+    }
+    .our__item{
+        max-width: 223px;
+
+    }
+    .our__end-box{
+        max-width: 689px;
+        padding: 27px 43px ;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .our__end-box-tittle{
+        max-width: 127px;
+        margin-bottom: 8px;
+    }
+    .our__end-box-text{
+        max-width: 602px;
+        margin-bottom: 67px;
+    }
+    .our__link-box{
+        max-width: 217px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        background: #0E8784;
+        border-radius: 6px; 
+    }
+}
+@media only screen and (max-width:720px){
+    .our__list{
+        display: block;
+    }
+    .our__input-4{
+        width: 327px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 32px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center; 
+    }
+    .our__box2-input-2{
+        max-width: 327px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 32px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center; 
+    }
+    .our__item{
+        max-width: 328px;
+        padding: 24px 25px ;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 16px;
+    }
+    .our__end-box{
+        max-width: 328px;
+        padding: 32px 24px ;
+    }
+    .our__end-box-tittle{
+        max-width: 172px;
+    }
+    .our__end-box-text{
+        max-width: 269px;
+    }
 }
